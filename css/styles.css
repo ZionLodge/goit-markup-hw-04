@@ -130,6 +130,7 @@ img {
 
 .hero-container {
   padding: 188px 0;
+  background-image: url("../images/background-image.jpg");
 }
 
 .hero-title {
@@ -173,6 +174,18 @@ img {
 .we-offer-list {
   display: flex;
   gap: 24px;
+}
+
+.we-offer-section-icon {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.we-offer-section-icon-list {
+  padding: 24px 100px;
+  border-radius: 4px;
+  background: var(--CLOUD, #f4f4fd);
 }
 
 .we-offer-element {
@@ -283,6 +296,22 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.customers-section-header {
+  margin-bottom: 72px;
+}
+
+.customers-section-icon {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customers-section-list-element {
+  padding: 16px 32px;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
 }
 
 .footer-background {
