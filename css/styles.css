@@ -472,7 +472,7 @@ img {
 
 .footer-link-svg:hover,
 .footer-link-svg:focus {
-  background-color: 31d0aa;
+  background-color: #31d0aa;
 }
 
 .footer-svg {
@@ -486,6 +486,10 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-logo-div {
+  margin-right: 120px;
+}
+
 .footer-paragraph-container {
   max-width: 264px;
 }
@@ -495,6 +499,14 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.footer-social-media-p {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-background-color);
+  margin-bottom: 16px;
 }
 
 .list {
